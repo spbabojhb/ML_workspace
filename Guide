@@ -1,0 +1,25 @@
+  # spyder prompt에서 업로드할 경로 설정.
+cd [directory]
+!git config --global user.name "Coastal-Bean"
+!git config --global user.email "utz237@gmail.com"
+!git init
+!git remote add origin [repository 경로 address]
+!git remote -v
+!git branch -M main
+--> 원하는 디렉토리로 가서 github 연결.
+
+  #commit and push
+!git add [file]
+!git commit -m "[commit]"
+!git push origin [branch]
+--> 파일 커밋(업로드) 방법: 올릴파일 추가해서 커밋 메시지 달고 올려보냄. branch 자리에는 앞선 branch 명인 main
+
+    # clone
+!git config --global user.name "Coastal-Bean"
+!git config --global user.email "utz237@gmail.com"
+!git clone [repository]
+다른 컴퓨터에서 레포지토리 받아올 때 원하는 디렉토리가서 이거 하면 됨
+
+# pull
+!git pull origin [branch]
+이건 파일 내려받기
